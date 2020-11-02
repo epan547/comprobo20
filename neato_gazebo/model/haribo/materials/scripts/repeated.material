@@ -9,7 +9,7 @@ material HariboTexture
         // Relative to the location of the material script
         texture haribo.jpg
         // Repeat the texture over the surface (4 per face)
-        scale 1 1
+        scale 1 1 1
       }
     }
   }

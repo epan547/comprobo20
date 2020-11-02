@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
-  <model name='skittles'>
+  <model name='swedish_fish'>
     <link name='link_0'>
       <inertial>
         <mass>1</mass>
@@ -28,9 +28,9 @@
         </geometry>
         <material>
          <script>
-          <uri>model://skittles/materials/scripts</uri>
-	  <uri>model://skittles/materials/textures</uri>
-          <name>SkittlesTexture</name>
+          <uri>model://swedish_fish/materials/scripts</uri>
+	  <uri>model://swedish_fish/materials/textures</uri>
+          <name>SwedishFishTexture</name>
          </script>
         </material>
         <transparency>0</transparency>

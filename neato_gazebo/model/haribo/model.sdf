@@ -15,10 +15,6 @@
         <pose>0 0 0 0 -0 0</pose>
       </inertial>
       <pose>-0 0 0 0 -0 0</pose>
-      <gravity>1</gravity>
-      <self_collide>0</self_collide>
-      <kinematic>0</kinematic>
-      <enable_wind>0</enable_wind>
       <visual name='visual'>
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
@@ -32,6 +28,7 @@
 	  <uri>model://haribo/materials/textures</uri>
           <name>HariboTexture</name>
          </script>
+         <shader type='pixel'/>
         </material>
         <transparency>0</transparency>
         <cast_shadows>1</cast_shadows>
